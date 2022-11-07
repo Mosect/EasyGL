@@ -4,15 +4,15 @@ plugins {
     id 'maven-publish'
 }
 
-def libVersion = '1.0.1'
+def libVersion = '1.0.2'
 
 android {
     compileSdk 32
 
     defaultConfig {
-        minSdk 21
+        minSdk 19
         targetSdk 32
-        versionCode 1
+        versionCode 2
         versionName libVersion
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
